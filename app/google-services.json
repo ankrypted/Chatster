@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "905190547294",
+    "firebase_url": "https://chatster-4a4ff.firebaseio.com",
+    "project_id": "chatster-4a4ff",
+    "storage_bucket": "chatster-4a4ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905190547294:android:c02774f4c6cd7d470779cf",
+        "android_client_info": {
+          "package_name": "com.example.chatster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905190547294-b1jptinssgaa895drlumhnak8sih0duu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKvFZdFMofsAjhEtQ-G8N94PX2qt_6dsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905190547294-b1jptinssgaa895drlumhnak8sih0duu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act2">
+
+    <TextView
+        android:id="@+id/tr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:text="Registration"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tr1"
+
+        android:text="Enter your Name"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/er1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tr2"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/er1"
+
+        android:text="Enter your Mobile Number"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/er2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tr3"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/tr4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/er2"
+        android:text="Create your Username"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/er3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tr4"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tr5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/er3"
+        android:text="Create your Password"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/er4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tr5"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/br1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:text="Register Now" />
+
+</RelativeLayout>
